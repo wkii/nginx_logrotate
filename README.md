@@ -1,6 +1,6 @@
 # 使用方法
 
-此镜像非常简单，就是使用官方Nginx镜像 `nginx:latest` 加上安装了logrotate。
+此镜像非常简单，就是使用官方Nginx镜像 `nginx:latest` 加上安装了logrotate、procps（ps命令）、vim。
 
 Nginx 官方 docker 会有一个默认的日期切割配置文件：/etc/logrotate.d/nginx：
 
